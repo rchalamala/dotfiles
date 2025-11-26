@@ -1,0 +1,31 @@
+{
+	"[python]": {
+		"editor.defaultFormatter": "charliermarsh.ruff"
+	},
+	"crashReporting.enabled": "off",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.fontFamily": "FiraCode Nerd Font Mono",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 12,
+	"editor.formatOnSave": true,
+	"editor.smoothScrolling": true,
+	"editor.wordWrap": "on",
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 100,
+	"git.autoStash": true,
+	"git.autofetch": "all",
+	"git.decorations.enabled": false,
+	"git.openRepositoryInParentFolders": "always",
+	"python.languageServer": "None",
+	"terminal.integrated.defaultLocation": "editor",
+	"terminal.integrated.scrollback": 10000000000,
+	"terminal.integrated.smoothScrolling": true,
+	"window.commandCenter": true,
+	"window.restoreWindows": "none",
+	"workbench.colorTheme": "Ayu Dark",
+	"workbench.iconTheme": "ayu",
+	"workbench.list.smoothScrolling": true,
+	"workbench.reduceMotion": "off"
+}

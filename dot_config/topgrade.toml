@@ -1,0 +1,12 @@
+[misc]
+pre_sudo = true
+
+
+[brew]
+greedy_cask = true
+autoremove = true
+fetch_head = true
+
+
+[firmware]
+upgrade = true

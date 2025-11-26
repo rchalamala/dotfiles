@@ -1,0 +1,100 @@
+
+# tap repositories and their packages
+
+tap homebrew/core
+brew bat
+brew chezmoi
+brew colima
+brew direnv
+brew docker
+brew docker-compose
+brew eza
+brew fd
+brew fish
+brew gcc
+brew gh
+brew git
+brew git-delta
+brew git-extras
+brew git-town
+brew gnupg
+brew jq
+brew lazygit
+brew mas
+brew mise
+brew prek
+brew starship
+brew topgrade
+brew uv
+brew wget
+brew yazi
+brew ykman
+brew zoxide
+brew zsh
+
+tap homebrew/cask
+cask 1password
+cask 1password-cli
+cask alcove
+cask amethyst
+cask betterdisplay
+cask bettermouse
+cask chatgpt
+cask claude
+cask claude-code
+cask codex
+cask cursor
+cask discord
+cask dropbox
+cask font-fira-code-nerd-font
+cask ghostty
+cask google-chrome
+cask insta360-link-controller
+cask jordanbaird-ice@beta
+cask karabiner-elements
+cask keepingyouawake
+cask little-snitch
+cask micro-snitch
+cask notion
+cask pdf-expert
+cask secretive
+cask signal
+cask slack
+cask spotify
+cask sublime-merge
+cask superhuman
+cask tableplus
+cask telegram
+cask whatsapp
+cask windsurf
+cask yubico-authenticator
+cask zed
+cask zoom
+
+tap f1bonacc1/tap
+brew f1bonacc1/tap/process-compose
+
+tap rcmdnk/file
+brew rcmdnk/file/brew-file
+
+# App Store applications
+appstore 1276493162 reMarkable (3.23.0)
+appstore 904280696 Things3 (3.22.7)
+
+# Cursor extensions
+cursor anthropic.claude-code
+cursor anysphere.cursorpyright
+cursor anysphere.remote-containers
+cursor anysphere.remote-ssh
+cursor charliermarsh.ruff
+cursor eamodio.gitlens
+cursor github.vscode-pull-request-github
+cursor mhutchie.git-graph
+cursor ms-azuretools.vscode-containers
+cursor ms-azuretools.vscode-docker
+cursor ms-python.debugpy
+cursor ms-python.python
+cursor openai.chatgpt
+cursor teabyii.ayu
+cursor usernamehw.errorlens
+cursor vscodevim.vim

@@ -1,0 +1,11 @@
+{
+	"nodeModulesDir": "auto",
+	"tasks": {
+		"build": "cd ~ && deno run --allow-env --allow-read --allow-write $HOME/.local/share/chezmoi/dot_config/karabiner/karabiner.ts",
+		"watch": "cd ~ && deno run --allow-env --allow-read --allow-write --watch $HOME/.local/share/chezmoi/dot_config/karabiner/karabiner.ts"
+	},
+	"imports": {
+		"karabiner.ts": "https://deno.land/x/karabinerts@1.35.1/deno.ts",
+		"karabiner.ts-greg-mods": "npm:karabiner.ts-greg-mods@0.7.0"
+	}
+}

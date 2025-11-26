@@ -1,0 +1,17 @@
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+{{ template "env.tmpl" . -}}
+
+{{ template "aliases.tmpl" }}
+
+bindkey -e
+
+eval "$(direnv hook zsh)"
+eval "$(mise activate zsh)"
+
+if [[ -z "$CURSOR_AGENT" ]]; then
+    eval "$(starship init zsh)"
+    eval "$(zoxide init --cmd cd zsh)"
+fi
+
+source "$HOMEBREW_PREFIX/etc/brew-wrap"

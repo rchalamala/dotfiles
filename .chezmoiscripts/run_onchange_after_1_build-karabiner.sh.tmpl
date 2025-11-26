@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# {{ include "dot_config/karabiner/karabiner.ts" | sha256sum }}
+
+set -euo pipefail
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(mise activate bash --shims)"
+
+mkdir -p ~/.config/karabiner
+
+if [ ! -f ~/.config/karabiner/karabiner.json ]; then
+    echo '{"profiles":[{"name":"Default","selected":true,"virtual_hid_keyboard":{"keyboard_type_v2":"ansi"}}]}' > ~/.config/karabiner/karabiner.json
+fi
+
+cd ~/.config/karabiner && mise exec -- deno run --allow-env --allow-read --allow-write "{{ .chezmoi.sourceDir }}/dot_config/karabiner/karabiner.ts"
