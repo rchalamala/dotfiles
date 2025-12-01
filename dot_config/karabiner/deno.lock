@@ -2,7 +2,7 @@
   "version": "5",
   "specifiers": {
     "npm:@types/node@*": "24.2.0",
-    "npm:karabiner.ts-greg-mods@0.7.0": "0.7.0_karabiner.ts@1.35.1"
+    "npm:karabiner.ts-greg-mods@*": "0.7.0_karabiner.ts@1.35.1"
   },
   "npm": {
     "@types/node@24.2.0": {
@@ -23,6 +23,9 @@
     "undici-types@7.10.0": {
       "integrity": "sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag=="
     }
+  },
+  "redirects": {
+    "https://deno.land/x/karabinerts/deno.ts": "https://deno.land/x/karabinerts@1.35.1/deno.ts"
   },
   "remote": {
     "https://deno.land/std@0.192.0/_util/asserts.ts": "178dfc49a464aee693a7e285567b3d0b555dc805ff490505a8aae34f9cfb1462",
@@ -73,7 +76,7 @@
   },
   "workspace": {
     "dependencies": [
-      "npm:karabiner.ts-greg-mods@0.7.0"
+      "npm:karabiner.ts-greg-mods@*"
     ]
   }
 }

@@ -22,7 +22,7 @@ brew jq
 brew lazygit
 brew mas
 brew mise
-brew prek
+brew ripgrep
 brew starship
 brew topgrade
 brew uv
