@@ -2,8 +2,6 @@
 
 set -euo pipefail
 
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
 {{ template "env.tmpl" . -}}
 
 sudo -v
