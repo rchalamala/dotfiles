@@ -2,5 +2,5 @@
 email = "22563365+rchalamala@users.noreply.github.com"
 
 [ssh]
-socket = "$HOME/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh"
+socket = "~/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh"
 
