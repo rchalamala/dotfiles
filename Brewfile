@@ -71,6 +71,8 @@ cask yubico-authenticator
 cask zed
 cask zoom
 
+tap buo/cask-upgrade
+
 tap f1bonacc1/tap
 brew f1bonacc1/tap/process-compose
 
@@ -78,7 +80,7 @@ tap rcmdnk/file
 brew rcmdnk/file/brew-file
 
 # App Store applications
-appstore 1276493162 reMarkable (3.23.0)
+appstore 1276493162 reMarkable (3.24.0)
 appstore 904280696 Things3 (3.22.7)
 
 # Cursor extensions
@@ -95,6 +97,7 @@ cursor ms-azuretools.vscode-docker
 cursor ms-python.debugpy
 cursor ms-python.python
 cursor openai.chatgpt
+cursor tamasfe.even-better-toml
 cursor teabyii.ayu
 cursor usernamehw.errorlens
 cursor vscodevim.vim
