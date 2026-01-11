@@ -46,6 +46,7 @@ cask codex
 cask cursor
 cask discord
 cask dropbox
+cask flux-app
 cask font-fira-code-nerd-font
 cask ghostty
 cask google-chrome
@@ -79,9 +80,11 @@ brew f1bonacc1/tap/process-compose
 tap rcmdnk/file
 brew rcmdnk/file/brew-file
 
+tap tw93/tap
+brew tw93/tap/mole
+
 # App Store applications
 appstore 1276493162 reMarkable (3.24.0)
-appstore 904280696 Things3 (3.22.7)
 
 # Cursor extensions
 cursor anthropic.claude-code
