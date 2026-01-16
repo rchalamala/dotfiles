@@ -1,6 +1,6 @@
 [git]
 email = "22563365+rchalamala@users.noreply.github.com"
+githubUsername = "rchalamala"
 
 [ssh]
-socket = "~/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh"
-
+socket = "$HOME/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh"

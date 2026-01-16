@@ -1,0 +1,4 @@
+{{- $keys := gitHubKeys .git.githubUsername -}}
+{{- if $keys -}}
+{{- (index $keys 0).Key | trim -}}
+{{- end -}}
