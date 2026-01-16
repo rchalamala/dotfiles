@@ -5,10 +5,6 @@ set -euo pipefail
 {{ template "env.tmpl" . -}}
 
 sudo -v
-if [ ! -f /etc/pam.d/sudo_local ]; then
-	sudo cp /etc/pam.d/sudo_local.template /etc/pam.d/sudo_local
-	sudo sed -i '' "s/^#auth       sufficient     pam_tid.so/auth       sufficient     pam_tid.so/" /etc/pam.d/sudo_local
-fi
 
 brew install rcmdnk/file/brew-file zsh fish
 BREW_PREFIX="$(brew --prefix)"
