@@ -1,3 +1,4 @@
+{{- $email := .git.email -}}
 {{- range gitHubKeys .git.githubUsername }}
-{{ .git.email }} namespaces="git" {{ .Key | trim }}
+{{ $email }} namespaces="git" {{ .Key | trim }}
 {{ end }}
