@@ -2,12 +2,10 @@
 # tap repositories and their packages
 
 tap homebrew/core
+brew awscli
 brew bat
 brew chezmoi
-brew colima
 brew direnv
-brew docker
-brew docker-compose
 brew eza
 brew fd
 brew fish
@@ -22,7 +20,10 @@ brew jq
 brew lazygit
 brew mas
 brew mise
+brew postgresql@14
+brew protobuf
 brew ripgrep
+brew rustup
 brew starship
 brew topgrade
 brew uv
@@ -36,7 +37,6 @@ tap homebrew/cask
 cask 1password
 cask 1password-cli
 cask alcove
-cask amethyst
 cask betterdisplay
 cask bettermouse
 cask chatgpt
@@ -45,7 +45,6 @@ cask claude-code
 cask codex
 cask cursor
 cask discord
-cask dropbox
 cask flux-app
 cask font-fira-code-nerd-font
 cask ghostty
@@ -58,13 +57,14 @@ cask little-snitch
 cask micro-snitch
 cask notion
 cask pdf-expert
-cask secretive
+cask rectangle-pro
 cask signal
 cask slack
 cask spotify
 cask sublime-merge
 cask superhuman
 cask tableplus
+cask tailscale-app
 cask telegram
 cask whatsapp
 cask windsurf
@@ -83,7 +83,11 @@ brew rcmdnk/file/brew-file
 tap tw93/tap
 brew tw93/tap/mole
 
+tap withgraphite/tap
+brew withgraphite/tap/graphite
+
 # App Store applications
+appstore 490179405 Okta Verify (9.52.0)
 appstore 1276493162 reMarkable (3.24.0)
 
 # Cursor extensions
@@ -91,12 +95,11 @@ cursor anthropic.claude-code
 cursor anysphere.cursorpyright
 cursor anysphere.remote-containers
 cursor anysphere.remote-ssh
+cursor astral-sh.ty
 cursor charliermarsh.ruff
 cursor eamodio.gitlens
 cursor github.vscode-pull-request-github
 cursor mhutchie.git-graph
-cursor ms-azuretools.vscode-containers
-cursor ms-azuretools.vscode-docker
 cursor ms-python.debugpy
 cursor ms-python.python
 cursor openai.chatgpt

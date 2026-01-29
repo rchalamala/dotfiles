@@ -2,6 +2,7 @@
 	format = ssh
 [gpg "ssh"]
 	allowedSignersFile = ~/.ssh/allowed_signers
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
 [commit]
 	gpgsign = true
 [tag]
@@ -9,7 +10,7 @@
 [user]
 	name = Rahul Chalamala
 	email = {{ .git.email }}
-	signingkey = ~/.ssh/github_signing.pub
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFvMv3esiqODfkre3n91vkK71Z7w2lESIU7n1SJ2yfVu
 [init]
 	defaultBranch = main
 [push]

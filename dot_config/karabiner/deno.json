@@ -1,6 +1,6 @@
 {
 	"imports": {
-		"karabiner.ts": "https://deno.land/x/karabinerts/deno.ts",
-		"karabiner.ts-greg-mods": "npm:karabiner.ts-greg-mods"
+		"karabiner.ts": "https://deno.land/x/karabinerts@1.36.0/deno.ts",
+		"karabiner.ts-greg-mods": "npm:karabiner.ts-greg-mods@0.7.2"
 	}
 }

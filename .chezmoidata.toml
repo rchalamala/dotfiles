@@ -3,4 +3,4 @@ email = "22563365+rchalamala@users.noreply.github.com"
 githubUsername = "rchalamala"
 
 [ssh]
-socket = "$HOME/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh"
+socket = "$HOME/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"

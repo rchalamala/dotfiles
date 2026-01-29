@@ -19,7 +19,7 @@ copy-on-select = true
 
 quit-after-last-window-closed=true
 
-shell-integration-features = ssh-terminfo
+shell-integration-features = ssh-terminfo,ssh-env
 
 macos-titlebar-style = tabs
 
