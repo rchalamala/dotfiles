@@ -37,6 +37,7 @@ tap homebrew/cask
 cask 1password
 cask 1password-cli
 cask alcove
+cask alt-tab
 cask betterdisplay
 cask bettermouse
 cask chatgpt
@@ -56,6 +57,7 @@ cask keepingyouawake
 cask little-snitch
 cask micro-snitch
 cask notion
+cask orbstack
 cask pdf-expert
 cask rectangle-pro
 cask signal
@@ -100,6 +102,8 @@ cursor charliermarsh.ruff
 cursor eamodio.gitlens
 cursor github.vscode-pull-request-github
 cursor mhutchie.git-graph
+cursor ms-azuretools.vscode-containers
+cursor ms-azuretools.vscode-docker
 cursor ms-python.debugpy
 cursor ms-python.python
 cursor openai.chatgpt
