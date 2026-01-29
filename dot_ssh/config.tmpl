@@ -1,2 +1,9 @@
 Host *
   IdentityAgent "{{ .ssh.socket }}"
+
+Host modal-dev
+    HostName 34.231.61.1
+    User ec2-user
+    ForwardAgent yes
+    LocalForward 7601 localhost:7601
+    IdentityFile ~/.aws/keypairs/rahul-modal.pem
